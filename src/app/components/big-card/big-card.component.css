@@ -1,7 +1,6 @@
 .big-card__container {
-  /* border-radius: 25px; */
-  /* background-color: #1d1d1d; */
-  border: solid red 5px;
+  border-radius: 25px;
+  background-color: #1d1d1d;
   width: 600px;
   height: 500px;
   display: flex;
@@ -22,7 +21,7 @@
 }
 
 .big-card__photo > img {
-  /* border-radius: 25px; */
+  border-radius: 25px;
   max-width: 100%;
   height: auto;
   display: block;
