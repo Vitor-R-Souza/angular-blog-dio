@@ -1,7 +1,6 @@
 .big-card__container {
-  /* border-radius: 25px;
-  box-shadow: 0px 0px 20px rgba(255, 251, 0, 0.447);
-  background-color: #1d1d1d; */
+  /* border-radius: 25px; */
+  /* background-color: #1d1d1d; */
   border: solid red 5px;
   width: 600px;
   height: 500px;
