@@ -27,3 +27,9 @@
   max-height: 320px;
   display: block;
 }
+
+.big-card__container:hover {
+  box-shadow: 0px 0px 8px gold;
+  transform: scale(1.02);
+  transition: 0.2s;
+}

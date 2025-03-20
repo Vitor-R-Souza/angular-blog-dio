@@ -11,6 +11,11 @@ header {
   flex-direction: row;
 }
 
+.menu-bar__list > li > a:hover {
+  color: gold;
+  transition: 0.2s;
+}
+
 .menu-bar__list > li {
   margin: 20px;
   list-style: none;
