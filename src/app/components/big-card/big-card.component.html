@@ -1,22 +1,13 @@
 <div class="big-card__container">
   <div class="big-card__photo">
-    <img
-      src="https://i.pinimg.com/736x/fd/8e/05/fd8e051e99afeb4493b7daa96850405c.jpg"
-      alt=""
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
   <div class="big-card__title">
-    <a href="">
-      <h1>PLACEHOLDER</h1>
+    <a [routerLink]="['content', id]">
+      <h1>{{ cardTitle }}</h1>
     </a>
   </div>
   <div class="big-card__description">
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero consequatur
-      est enim asperiores. Laboriosam, sapiente optio harum magnam nostrum
-      obcaecati voluptatem excepturi molestiae, itaque, rem modi. Reprehenderit
-      porro velit laboriosam.
-    </p>
+    <p>{{ cardDescription }}</p>
   </div>
 </div>

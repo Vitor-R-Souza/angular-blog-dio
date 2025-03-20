@@ -3,6 +3,7 @@
   background-color: #1d1d1d;
   margin-bottom: 15px;
   width: 600px;
+  height: 157px;
   display: flex;
   flex-direction: row;
   padding: 15px;
@@ -10,8 +11,10 @@
 
 .small-card__photo > img {
   border-radius: 15px;
-  width: 200px;
-  min-width: 200px;
+  max-height: 100%;
+  width: auto;
+  min-width: 190px;
+  max-width: 200px;
   margin-right: 15px;
 }
 

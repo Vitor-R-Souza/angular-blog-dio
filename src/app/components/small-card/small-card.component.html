@@ -1,12 +1,10 @@
 <div class="small-card__container">
   <div class="small-card__photo">
-    <img
-      src="https://i.pinimg.com/736x/c1/14/36/c114368f68b6a16d0aff82acd097be3c.jpg"
-      alt=""
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
   <div class="small-card__title">
-    <h1>PLACEHOLDER</h1>
+    <a [routerLink]="['content', id]">
+      <h1>{{ cardTitle }}</h1>
+    </a>
   </div>
 </div>
